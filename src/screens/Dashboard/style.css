@@ -1,0 +1,10 @@
+.DashAnimation{
+    animation-name: Aumentar;
+  animation-duration: 2s;
+}
+
+@keyframes Aumentar {
+  from {
+    margin-left: 2000px;
+  }
+}

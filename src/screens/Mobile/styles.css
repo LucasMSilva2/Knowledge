@@ -1,0 +1,186 @@
+.corpo-mobile {
+  background-image: linear-gradient(to right, #22287e 30%, #ad17bb);
+}
+
+.folder{
+    width: 650px;
+    height: 700px;
+    margin-top: -60px;
+}
+
+.inicio {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.inicio-categorias {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  line-height: 60px;
+  font-size: 50px;
+  margin-right: 400px;
+}
+
+.listagem {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  width: 100vh;
+  height: 100vh;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  background-color: #1358ab;
+  height: 70px;
+  border-bottom: 2px solid white;
+}
+
+.navbar-item {
+  margin-top: 20px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.navbar-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 95%;
+  align-items: flex-start;
+}
+
+.corpo {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+h1 {
+  align-self: center;
+}
+
+.container-listagem {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+li {
+  padding: 5px;
+  margin-top: 5px;
+}
+
+
+
+a {
+  color: rgb(194, 228, 255);
+  text-decoration: none;
+}
+
+.banner {
+  width: 680px;
+  height: 500px;
+}
+
+.welcome-message {
+  margin-right: 30px;
+  line-height: 40px;
+}
+
+.inicio-categorias {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.mercado-bloco {
+  background-color: rgba(240, 255, 255, 0.363);
+  width: 45%;
+  height: 280px;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 5%;
+    width: 100%;
+  }
+}
+
+.titulo-inicio-categoria {
+  animation-duration: 3s;
+  animation-name: color;
+}
+
+@keyframes color {
+  from {
+    color: #193557;
+  }
+}
+
+.descricao {
+  padding-top: 50px;
+}
+
+.ajuste-descricao {
+  color: #141674;
+  font-size: 28px;
+}
+
+.descricao-texto {
+  margin-left: 50px;
+}
+
+.avaliacao {
+  min-height: 200px;
+}
+
+.avaliacoes {
+  padding-bottom: 150px;
+}
+
+.avaliacoes-cards {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  width: 100%;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-top: 9px;
+}
+
+.icon-subcategoria {
+  background-color: rgba(240, 248, 255, 0.308);
+  margin-top: 30px;
+  width: 70px;
+  height: 70px;
+  border-radius: 40%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 20px;
+  justify-content: space-between;
+}
+
+.curso_completo {
+  margin-left: 30px;
+}
+
+
